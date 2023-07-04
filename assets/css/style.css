@@ -38,6 +38,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 .logoWH {
   width: 175px;
   height: 67px;
@@ -225,21 +227,19 @@ body {
   color: #232f6f;
 }
 
-
-#homepage-containerthree .tailored-block-three .tailored-white{
+#homepage-containerthree .tailored-block-three .tailored-white {
   font-weight: 600;
   font-size: 26px;
   line-height: 30px;
   color: #fff;
 }
 
-#homepage-containerthree .tailored-block-four .tailored-white{
+#homepage-containerthree .tailored-block-four .tailored-white {
   font-weight: 600;
   font-size: 26px;
   line-height: 30px;
   color: #fff;
 }
-
 
 #homepage-containerthree .tailored-block-three .tailored-subtext {
   font-weight: 400;
@@ -280,7 +280,6 @@ body {
   color: #fff;
   line-height: 30px;
 }
-
 
 #homepage-containerfour {
   margin-top: 100px;
@@ -346,10 +345,10 @@ body {
   background-image: url(../images/our-team-background-image.png);
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: initial;
   text-align: center;
-  padding: 50px 180px;
+  padding: 25px 95px;
 }
 
 .homepage-containerseven {
@@ -440,13 +439,229 @@ body {
 
 /*--------------------about us pages css start---------------*/
 
-#our-story {
-}
-
 #our-story .our-story-left {
   padding-left: 60px;
 }
 
+/*--------------------about us pages css end---------------*/
+
+/*--------------------career pages css start---------------*/
+
+#career .career-div {
+  text-align: center;
+  padding: 50px 195px;
+}
+
+#career-details {
+}
+
+#career-details .carer-block-details .sub-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #232f6f;
+  line-height: 24px;
+}
+
+#career-details .carer-block-details .carer-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #aaaaaa;
+  line-height: 24px;
+}
+
+#career-details .carer-block-details {
+  padding: 0px 15px;
+}
+
+#career-details .buttons-container {
+  text-align: center;
+}
+/*--------------------career pages css end---------------*/
+
+/*--------------------contact-page  Start---------------*/
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 0px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+  border-color: #f33fb0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+}
+
+.contact-form .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-form .description {
+  color: #aeb4b9;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 0px;
+  background-color: #0a8acb;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #0a8acb;
+}
+
+/* services pages css start */
+
+#services-one-page .services-title-block {
+  position: absolute;
+  top: 150px;
+  padding: 0px 50px;
+}
+
+#company-registration .services-second-container-left {
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+  padding: 45px 45px;
+  max-width: 574px;
+  min-height: 400px;
+  border-top: 15px solid #126cac;
+  border-left: 15px solid #126cac;
+}
+
+#company-registration .services-second-container-right {
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+  padding: 45px 55px;
+  max-width: 574px;
+  min-height: 400px;
+}
+
+#company-registration .services-second-container-left .services-number {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 88.77px;
+  color: rgba(168, 168, 168, 1);
+  margin-bottom: 0px;
+}
+
+#company-registration .services-second-container-left .company-intro-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(11, 66, 157, 1);
+}
+
+#company-registration .services-second-container-left .company-intro-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(168, 168, 168, 1);
+}
+
+#company-registration .services-second-container-right .services-number {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 88.77px;
+  color: rgba(168, 168, 168, 1);
+  margin-bottom: 0px;
+}
+
+#company-registration .services-second-container-right .company-intro-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(11, 66, 157, 1);
+}
+
+#company-registration
+  .services-second-container-right
+  .company-intro-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(168, 168, 168, 1);
+}
+
+#company-registration .services-second-container-full {
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+  padding: 45px 55px;
+  max-width: 1240px;
+}
+
+#company-registration .services-second-container-full .services-number {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 88.77px;
+  color: rgba(168, 168, 168, 1);
+  margin-bottom: 0px;
+}
+
+#company-registration .services-second-container-full .company-intro-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgba(11, 66, 157, 1);
+}
+
+#company-registration .services-second-container-full .company-intro-sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(168, 168, 168, 1);
+}
+
+/* services pages css End */
+
+/*--------------------contact-page  Start---------------*/
+.contact-us .contact-us-left {
+  padding-left: 50px;
+}
 /*--------------------footer start---------------*/
 
 h1,
@@ -589,38 +804,26 @@ img {
   color: #ffffff;
   font-weight: 400;
 }
-.small-post-item .post-date {
-  color: #ffb606;
-  margin-bottom: 3px;
-  font-family: var(--para-font);
-  font-weight: 400;
-}
+
 .small-post-list li + li {
   margin-top: 30px;
 }
 .news-letter-form {
   margin-top: 15px;
+  position: relative;
 }
 .news-letter-form input {
   width: 100%;
-  padding: 12px 25px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  padding: 14px 25px;
+  border-radius: 0px;
   border: none;
+  padding-right: 100px;
 }
 .news-letter-form input[type="submit"] {
   width: auto;
   border: none;
-  background-color: #ffb606;
   padding: 9px 30px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-radius: 0px;
   color: #ffffff;
   margin-top: 10px;
 }
@@ -655,11 +858,247 @@ img {
 }
 
 .footer-section .footer-top .social-icons {
-  margin-top: 15px;
+  margin-top:20px;
 }
+
 
 .footer-section .footer-top .social-icons .icon-facebook {
   margin-right: 35px;
 }
 
+.search-wrapper button {
+  overflow: visible;
+  position: absolute;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 53px;
+  width: 75px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #232F6F;
+  border-radius: 0px;
+  top: 0px;
+  right: 0px;
+} 
+
+
+.search-wrapper button:active,
+.search-wrapper button:focus{  
+  background: #198cff;
+  outline: 0;  
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before{
+      border-right-color: #c42f2f;
+}     
+
+
+
 /*--------------------footer End---------------*/
+
+@media only screen and (max-width: 768px) {
+  /*homepage */
+
+ body, html {
+  overflow-x: hidden;
+ }
+
+
+  .banner-container .header-container .do-you-want {
+    font-size: 22px;
+    line-height: 48px;
+    margin-bottom: 0px;
+  }
+
+  .banner-container .header-container .business {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .banner-container .buttons-container .read-more {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  #homepage-containertwo .right-about {
+    padding: 50px 15px;
+  }
+
+
+  #homepage-containerthree .why-chose-block {
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  #homepage-containerthree {
+    padding: 10px 0;
+  }
+  .main-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--primarycolor);
+  }
+
+  #homepage-containerfour {
+    margin-top: 30px;
+    background: #126cac;
+  }
+
+  #homepage-containerfour .our-services-div {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .sub-heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #aaaaaa;
+  }
+
+  #homepage-containersix .our-team-container .main-heading-white {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#homepage-containersix .our-team-container .sub-heading-white {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+  #homepage-containersix .our-team-container {
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px 30px;
+}
+
+  #homepage-containernine .career-block {
+    text-align: center;
+    padding: 0px 30px;
+  }
+
+  #homepage-containernine .main-heading {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  #homepage-containernine .career-block .read-more-text {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#homepage-containernine {
+  padding: 0px 0;
+  min-height: 0vh;
+}
+
+
+#about-us{
+
+  min-height: 30vh;
+}
+
+#our-story {
+  padding: 0px 0;
+}
+
+#our-story .our-story-left {
+  padding: 10px;
+  text-align: center;
+}
+
+#career .career-div {
+  text-align: center;
+  padding: 41px 15px;
+}
+
+.contact-us .contact-us-left {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.homepage-containerseven .contact-flex {
+  display: block;
+  padding: 35px 30px;
+}
+
+.main-heading-white {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+
+}
+
+
+#homepage-containerfive .right-image-div {
+  margin-top:30px;
+}
+
+.homepage-containerseven .contact-flex .contact-left .mail-id {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.homepage-containerseven .contact-flex .contact-left .m-id {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: underline;
+}
+.homepage-containerseven .contact-flex .contact-left .address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.homepage-containerseven .contact-right .social-icons {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+}
+
+.homepage-containerseven .contact-flex .contact-address {
+  padding: 40px 0px;
+}
+
+.homepage-containerseven .contact-flex .contact-address .mail-id {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.homepage-containerseven .contact-flex .contact-address .m-id {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.homepage-containerseven .contact-right .social-icons .icon-facebook {
+  margin-right: 0px;
+}
+
+.homepage-containerseven .contact-flex .contact-address .mail-id {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.homepage-containerseven .contact-flex .contact-address .address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+}
